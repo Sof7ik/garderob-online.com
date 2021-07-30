@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Roboto:wght@500&display=swap');
+
+*, *::before, *::after
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body
+{
+	min-height: 100%;
+}
+
+body
+{
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+
+
+	background-repeat: no-repeat;
+	background-image:
+			linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+			linear-gradient(180deg, #F9E2E3 0%, #FFA8AD 19.79%, #F06083 39.58%, #B26CFF 61.98%,
+									rgba(55, 72, 218, 0.589041) 77.6%, #1E6FDD 100%);
+}
+
+main
+{
+	flex-grow: 1;
+}
+
+img
+{
+	display: block;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+.container-375
+{
+	max-width: 375px;
+	padding: 0 30px;
+	margin: 0 auto;
+}
+
+div.order-btn-wrapper
+{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+
+	position: relative;
+
+	margin: 21px auto 35px;
+
+	border-radius: 15px;
+
+	padding: 15px 10px;
+}
+
+div.order-btn-wrapper.pink
+{
+	background-color: #FF72BF;
+	box-shadow: 0 4px 20px rgba(43, 32, 36, 0.6);
+}
+
+div.order-btn-wrapper.white
+{
+	background: #FFFAFA;
+	box-shadow: 0 4px 50px #D54EC7;
+}
+
+div.order-btn-wrapper.blue
+{
+	background: #0045FE;
+	box-shadow: 0 4px 20px rgba(39, 71, 116, 0.6);
+}
+
+
+div.order-btn-wrapper img
+{
+	margin-right: 16px;
+}
+
+a.order-btn
+{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+
+	color: #333333;;
+}
+
+div.order-btn-wrapper.blue a.order-btn
+{
+	color: #fff;
+}
+
+a.order-btn::before
+{
+	content: '';
+
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}

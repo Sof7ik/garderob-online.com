@@ -1,0 +1,35 @@
+footer#page-footer
+{
+	padding-bottom: 28px;
+}
+
+p.copyright
+{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 150%;
+
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+p.development, p.development a
+{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 150%;
+
+	text-align: center;
+
+	color: #FFFFFF;
+}
+p.development a
+{
+	border-bottom: 1px solid #fff;
+	padding-bottom: 1px;
+}
