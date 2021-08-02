@@ -13,6 +13,8 @@
 	<link rel="stylesheet" href="./src/header.css">
 	<link rel="stylesheet" href="./src/mainpage.css">
 	<link rel="stylesheet" href="./src/footer.css">
+
+	<script src="./src/js/open-dropdowns.js" defer></script>
 </head>
 <body>
 	<header id="page-header">
@@ -30,7 +32,10 @@
 	<div class="container-375">
 		<main>
 			<article class="dropdowns">
-				<div class="dropdown-block how-to-order">
+				<div
+					role="button"
+					tabindex="0"
+					class="dropdown-block how-to-order">
 					<div class="dropdown-block__title-wrapper">
 						<button class="open-dropdown-btn">
 							<span class="dropdown-btn-part horizontal"></span>
@@ -54,7 +59,10 @@
 					</div>
 				</div>
 
-				<div class="dropdown-block delivery">
+				<div
+					role="button"
+					tabindex="0"
+					class="dropdown-block delivery">
 					<div class="dropdown-block__title-wrapper">
 						<button class="open-dropdown-btn">
 							<span class="dropdown-btn-part horizontal"></span>
