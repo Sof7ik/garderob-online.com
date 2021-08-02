@@ -27,8 +27,6 @@ main
 
 	border-radius: 10px;
 
-	/* ????? */
-	/*margin-bottom: 12px;*/
 	margin-bottom: 23px;
 
 	max-height: calc(30px + 40px);
@@ -299,7 +297,138 @@ a.contact-tel
 
 .images-carousel
 {
-	margin-top: 20px;
+	overflow-x: hidden;
+
+	max-width: 1966px;
+	margin: 20px auto 0;
+}
+
+.rail-container
+{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.carousel-wrapper
+{
+	padding-right: 40px;
+}
+
+.images-carousel .carousel-row
+{
+	display: flex;
+	flex-flow:  row nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.images-carousel .carousel-row.images-center
+{
+	margin-top: -50px;
+	margin-left: 112px;
+}
+.images-carousel .carousel-row.images-bottom
+{
+	margin-top: -50px;
+}
+
+.images-carousel .carousel-row img
+{
+	width: 203px;
+	height: 203px;
+	object-fit: cover;
+
+	border-radius: 10px;
+	box-shadow: 0 4px 50px rgba(255, 255, 255, 0.6);
+
+	position: relative;
+}
+
+/* верхний ряд карусели */
+.images-carousel .carousel-row.images-top img:nth-child(2)
+{
+	margin-left: 142px;
+}
+.images-carousel .carousel-row.images-top img:nth-child(3)
+{
+	margin-left: 91px;
+	z-index: 3;
+}
+.images-carousel .carousel-row.images-top img:nth-child(4)
+{
+	margin-left: 91px;
+	z-index: 4;
+}
+.images-carousel .carousel-row.images-top img:nth-child(5)
+{
+	margin-left: 116px;
+	z-index: 6;
+}
+.images-carousel .carousel-row.images-top img:nth-child(6)
+{
+	margin-left: 40px;
+}
+.images-carousel .carousel-row.images-top img:nth-child(7)
+{
+	margin-left: 25px;
+}
+
+/* центральный ряд карусели */
+.images-carousel .carousel-row.images-center img:first-child
+{
+	z-index: 2;
+}
+.images-carousel .carousel-row.images-center img:nth-child(2)
+{
+	margin-left: 142px;
+	z-index: 2;
+}
+.images-carousel .carousel-row.images-center img:nth-child(3)
+{
+	margin-left: 154px;
+	z-index: 3;
+}
+.images-carousel .carousel-row.images-center img:nth-child(4)
+{
+	margin-left: 47px;
+	z-index: 5;
+}
+.images-carousel .carousel-row.images-center img:nth-child(5)
+ {
+	 margin-left: 120px;
+	z-index: 7;
+ }
+
+/* нижний ряд карусели */
+.images-carousel .carousel-row.images-bottom img:first-child
+{
+	z-index: 3;
+}
+.images-carousel .carousel-row.images-bottom img:nth-child(2)
+{
+	margin-left: 78px;
+	z-index: 3;
+}
+.images-carousel .carousel-row.images-bottom img:nth-child(3)
+{
+	margin-left: 97px;
+	z-index: 3;
+}
+.images-carousel .carousel-row.images-bottom img:nth-child(4)
+{
+	margin-left: 178px;
+	z-index: 4;
+}
+.images-carousel .carousel-row.images-bottom img:nth-child(5)
+{
+	margin-left: 121px;
+	z-index: 7;
+}
+.images-carousel .carousel-row.images-bottom img:nth-child(6)
+{
+	margin-left: 120px;
 }
 
 /* Как нас найти? */
@@ -347,8 +476,6 @@ a.contact-tel
 	line-height: 150%;
 
 	color: #333333;
-
-	max-width: 148px;
 }
 
 /* Отзывы о нас */
@@ -426,26 +553,6 @@ a.contact-tel
 	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
 
 	border-radius: 10px;
+
+	cursor: pointer;
 }
-
-/*p.reviews-banner*/
-/*{*/
-/*	position: absolute;*/
-
-/*	right: 0;*/
-/*	top: 50%;*/
-
-/*	transform: translateY(-50%) rotate(-90deg);*/
-
-/*	font-family: 'Montserrat', sans-serif;*/
-/*	font-style: normal;*/
-/*	font-weight: 900;*/
-/*	font-size: 50px;*/
-/*	line-height: 150%;*/
-
-/*	text-align: center;*/
-/*	letter-spacing: 0.07em;*/
-/*	text-transform: uppercase;*/
-
-/*	color: #000000;*/
-/*}*/
