@@ -8,22 +8,16 @@
 
 	<title>Garderob-online - Шоурум одежды. Женская одежда</title>
 
-	<link rel="stylesheet" href="./src/global.css">
+	<link rel="stylesheet" href="src/css/global.css">
 
-	<link rel="stylesheet" href="./src/header.css">
-	<link rel="stylesheet" href="./src/mainpage.css">
-	<link rel="stylesheet" href="./src/footer.css">
-
-
-	<!-- fancybox -->
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
-	<script type="text/javascript" src="./fancybox-1/jquery.fancybox-1.3.4.pack.js"></script>
-	<link rel="stylesheet" href="./fancybox-1/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
-
+	<link rel="stylesheet" href="src/css/header.css">
+	<link rel="stylesheet" href="src/css/mainpage.css">
+	<link rel="stylesheet" href="src/css/footer.css">
+	<link rel="stylesheet" href="src/css/review-modal.css">
 
 	<script src="./src/js/open-dropdowns.js" defer></script>
 	<script src="./src/js/carousel-init.js" defer></script>
-	<script src="./src/js/fancybox-init.js" defer></script>
+	<script src="src/js/reviews-init.js" defer></script>
 </head>
 <body>
 	<header id="page-header">
@@ -37,14 +31,10 @@
 		</picture>
 	</header>
 
-
 	<main>
 		<div class="container-375">
 			<article class="dropdowns">
-				<div
-					role="button"
-					tabindex="0"
-					class="dropdown-block how-to-order">
+				<div class="dropdown-block how-to-order">
 					<div class="dropdown-block__title-wrapper">
 						<button class="open-dropdown-btn">
 							<span class="dropdown-btn-part horizontal"></span>
@@ -68,10 +58,7 @@
 					</div>
 				</div>
 
-				<div
-					role="button"
-					tabindex="0"
-					class="dropdown-block delivery">
+				<div class="dropdown-block delivery">
 					<div class="dropdown-block__title-wrapper">
 						<button class="open-dropdown-btn">
 							<span class="dropdown-btn-part horizontal"></span>
@@ -158,79 +145,95 @@
 				<div class="carousel-wrapper">
 					<section class="images-top carousel-row">
 						<img
-							src="./upload/carousel/top/1.jpg"
+							src="upload/carousel/top/1/1.jpg"
+							srcset="upload/carousel/top/1/1@2x.jpg 2x"
 							alt="Девушка в белом платье">
 
 						<img
-							src="./upload/carousel/top/2.jpg"
+							src="upload/carousel/top/2/2.jpg"
+							srcset="upload/carousel/top/2/2@2x.jpg 2x"
 							alt="Разноцветные вещи">
 
 						<img
-							src="./upload/carousel/top/3.jpg"
+							src="upload/carousel/top/3/3.jpg"
+							srcset="upload/carousel/top/3/3@2x.jpg 2x"
 							alt="Кроссовки">
 
 						<img
-							src="./upload/carousel/top/4.jpg"
+							src="upload/carousel/top/4/4.jpg"
+							srcset="upload/carousel/top/4/4@2x.jpg 2x"
 							alt="Девушка в тёмном платье">
 
 						<img
-							src="./upload/carousel/top/5.jpg"
+							src="./upload/carousel/top/5/5.jpg"
+							srcset="./upload/carousel/top/5/5@2x.jpg 2x"
 							alt="Девушка в тёмно-розовом костюме">
 
 						<img
-							src="./upload/carousel/top/6.jpg"
+							src="./upload/carousel/top/6/6.jpg"
+							srcset="./upload/carousel/top/6/6@2x.jpg 2x"
 							alt="Несколько пар кроссовок на асфальте">
 
 						<img
-							src="./upload/carousel/top/7.jpg"
+							src="./upload/carousel/top/7/7@2x.jpg"
 							alt="Фиолетовый костюм">
 					</section>
 
 					<section class="images-center carousel-row">
 						<img
-							src="./upload/carousel/center/1.jpg"
+							src="upload/carousel/center/1/1.jpg"
+							srcset="upload/carousel/center/1/1@2x.jpg 2x"
 							alt="Девушка в крсном платье">
 
 						<img
-							src="./upload/carousel/center/2.jpg"
+							src="upload/carousel/center/2/2.jpg"
+							srcset="upload/carousel/center/2/2@2x.jpg 2x"
 							alt="Девушка в розовом платье">
 
 						<img
-							src="./upload/carousel/center/3.jpg"
+							src="upload/carousel/center/3/3.jpg"
+							srcset="upload/carousel/center/3/3@2x.jpg 2x"
 							alt="Девушка в тёмном костюме">
 
 						<img
-							src="./upload/carousel/center/4.jpg"
+							src="upload/carousel/center/4/4.jpg"
+							srcset="upload/carousel/center/4/4@2x.jpg 2x"
 							alt="Девушка в розовой одежде">
 
 						<img
-							src="./upload/carousel/center/5.jpg"
+							src="upload/carousel/center/5/5.jpg"
+							srcset="upload/carousel/center/5/5@2x.jpg 2x"
 							alt="Кроссовки">
 					</section>
 
 					<section class="images-bottom carousel-row">
 						<img
-							src="./upload/carousel/bottom/1.jpg"
+							src="upload/carousel/bottom/1/1.jpg"
+							srcset="upload/carousel/bottom/1/1@2x.jpg 2x"
 							alt="Девушка в красном платье">
 
 						<img
-							src="./upload/carousel/bottom/2.jpg"
+							src="upload/carousel/bottom/2/2@2x.jpg"
 							alt="Девушка голубом костюме">
 
 						<img
-							src="./upload/carousel/bottom/3.jpg"
+							src="upload/carousel/bottom/3/3.jpg"
+							srcset="upload/carousel/bottom/3/3@2x.jpg 2x"
 							alt="Две девушки в костюмах">
 
 						<img
-							src="./upload/carousel/bottom/4.jpg"
+							src="upload/carousel/bottom/4/4.jpg"
+							srcset="upload/carousel/bottom/4/4@2x.jpg 2x"
 							alt="Кроссовки">
 
 						<img
-							src="./upload/carousel/bottom/5.jpg"
+							src="./upload/carousel/bottom/5/5.jpg"
+							srcset="./upload/carousel/bottom/5/5@2x.jpg 2x"
 							alt="Две девушки в ярких костюмах">
 
 						<img
-							src="./upload/carousel/bottom/6.jpg"
+							src="./upload/carousel/bottom/6/6.jpg"
+							srcset="./upload/carousel/bottom/6/6@2x.jpg 2x"
 							alt="Две в розовом костюме">
 					</section>
 				</div>
@@ -238,79 +241,95 @@
 				<div class="carousel-wrapper-second">
 					<section class="images-top carousel-row">
 						<img
-							src="./upload/carousel/top/1.jpg"
+							src="upload/carousel/top/1/1.jpg"
+							srcset="upload/carousel/top/1/1@2x.jpg 2x"
 							alt="Девушка в белом платье">
 
 						<img
-							src="./upload/carousel/top/2.jpg"
+							src="upload/carousel/top/2/2.jpg"
+							srcset="upload/carousel/top/2/2@2x.jpg 2x"
 							alt="Разноцветные вещи">
 
 						<img
-							src="./upload/carousel/top/3.jpg"
+							src="upload/carousel/top/3/3.jpg"
+							srcset="upload/carousel/top/3/3@2x.jpg 2x"
 							alt="Кроссовки">
 
 						<img
-							src="./upload/carousel/top/4.jpg"
+							src="upload/carousel/top/4/4.jpg"
+							srcset="upload/carousel/top/4/4@2x.jpg 2x"
 							alt="Девушка в тёмном платье">
 
 						<img
-							src="./upload/carousel/top/5.jpg"
+							src="./upload/carousel/top/5/5.jpg"
+							srcset="./upload/carousel/top/5/5@2x.jpg 2x"
 							alt="Девушка в тёмно-розовом костюме">
 
 						<img
-							src="./upload/carousel/top/6.jpg"
+							src="./upload/carousel/top/6/6.jpg"
+							srcset="./upload/carousel/top/6/6@2x.jpg 2x"
 							alt="Несколько пар кроссовок на асфальте">
 
 						<img
-							src="./upload/carousel/top/7.jpg"
+							src="./upload/carousel/top/7/7@2x.jpg"
 							alt="Фиолетовый костюм">
 					</section>
 
 					<section class="images-center carousel-row">
 						<img
-							src="./upload/carousel/center/1.jpg"
+							src="upload/carousel/center/1/1.jpg"
+							srcset="upload/carousel/center/1/1@2x.jpg 2x"
 							alt="Девушка в крсном платье">
 
 						<img
-							src="./upload/carousel/center/2.jpg"
+							src="upload/carousel/center/2/2.jpg"
+							srcset="upload/carousel/center/2/2@2x.jpg 2x"
 							alt="Девушка в розовом платье">
 
 						<img
-							src="./upload/carousel/center/3.jpg"
+							src="upload/carousel/center/3/3.jpg"
+							srcset="upload/carousel/center/3/3@2x.jpg 2x"
 							alt="Девушка в тёмном костюме">
 
 						<img
-							src="./upload/carousel/center/4.jpg"
+							src="upload/carousel/center/4/4.jpg"
+							srcset="upload/carousel/center/4/4@2x.jpg 2x"
 							alt="Девушка в розовой одежде">
 
 						<img
-							src="./upload/carousel/center/5.jpg"
+							src="upload/carousel/center/5/5.jpg"
+							srcset="upload/carousel/center/5/5@2x.jpg 2x"
 							alt="Кроссовки">
 					</section>
 
 					<section class="images-bottom carousel-row">
 						<img
-							src="./upload/carousel/bottom/1.jpg"
+							src="upload/carousel/bottom/1/1.jpg"
+							srcset="upload/carousel/bottom/1/1@2x.jpg 2x"
 							alt="Девушка в красном платье">
 
 						<img
-							src="./upload/carousel/bottom/2.jpg"
+							src="upload/carousel/bottom/2/2@2x.jpg"
 							alt="Девушка голубом костюме">
 
 						<img
-							src="./upload/carousel/bottom/3.jpg"
+							src="upload/carousel/bottom/3/3.jpg"
+							srcset="upload/carousel/bottom/3/3@2x.jpg 2x"
 							alt="Две девушки в костюмах">
 
 						<img
-							src="./upload/carousel/bottom/4.jpg"
+							src="upload/carousel/bottom/4/4.jpg"
+							srcset="upload/carousel/bottom/4/4@2x.jpg 2x"
 							alt="Кроссовки">
 
 						<img
-							src="./upload/carousel/bottom/5.jpg"
+							src="./upload/carousel/bottom/5/5.jpg"
+							srcset="./upload/carousel/bottom/5/5@2x.jpg 2x"
 							alt="Две девушки в ярких костюмах">
 
 						<img
-							src="./upload/carousel/bottom/6.jpg"
+							src="./upload/carousel/bottom/6/6.jpg"
+							srcset="./upload/carousel/bottom/6/6@2x.jpg 2x"
 							alt="Две в розовом костюме">
 					</section>
 				</div>
@@ -330,7 +349,9 @@
 
 			<article class="contacts">
 				<address class="contact-item">
-					<a href="https://instagram.com" class="address-text">Спартаковская, 2 <br>Казань</a>
+					<a href="https://instagram.com"
+					   class="address-text"
+					   target="_blank">Спартаковская, 2 <br>Казань</a>
 
 					<img
 						src="./upload/icons/inst.svg"
@@ -338,7 +359,9 @@
 				</address>
 
 				<address class="contact-item">
-					<a href="https://instagram.com" class="address-text">Декабристов, 127 <br>Казань</a>
+					<a href="https://instagram.com"
+					   target="_blank"
+					   class="address-text">Декабристов, 127 <br>Казань</a>
 
 					<img
 						src="./upload/icons/inst.svg"
@@ -346,7 +369,9 @@
 				</address>
 
 				<address class="contact-item">
-					<a href="https://instagram.com" class="address-text">Четаева, 35 <br>Казань</a>
+					<a href="https://instagram.com"
+					   target="_blank"
+					   class="address-text">Четаева, 35 <br>Казань</a>
 
 					<img
 						src="./upload/icons/inst.svg"
@@ -354,7 +379,9 @@
 				</address>
 
 				<address class="contact-item">
-					<a href="https://instagram.com" class="address-text">Зорге, 60 <br>Казань</a>
+					<a href="https://instagram.com"
+					   target="_blank"
+					   class="address-text">Зорге, 60 <br>Казань</a>
 
 					<img
 						src="./upload/icons/inst.svg"
@@ -362,7 +389,9 @@
 				</address>
 
 				<address class="contact-item">
-					<a href="https://instagram.com" class="address-text">пр. Вахитова, 31 (21/25) <br>Набережные Челны</a>
+					<a href="https://instagram.com"
+					   target="_blank"
+					   class="address-text">пр. Вахитова, 31 (21/25) <br>Набережные Челны</a>
 
 					<img
 						src="./upload/icons/inst.svg"
@@ -374,61 +403,101 @@
 				<h2 class="reviews-title">Отзывы о нас</h2>
 
 				<div class="reviews-grid">
-					<a href="./upload/reviews/1.png" class="review-image-wrapper">
-						<img
-							src="./upload/reviews/1.png"
-							alt=""
-							class="fancybox-image">
-					</a>
+<!--					<img-->
+<!--						src="./upload/reviews/1.jpg"-->
+<!--						alt="скриншот отзыва"-->
+<!--						class="fancybox-image">-->
 
-					<a href="./upload/reviews/2.png" class="review-image-wrapper">
-						<img
-							src="./upload/reviews/2.png"
-							alt=""
-							class="fancybox-image">
-					</a>
+<!--					<img-->
+<!--						src="./upload/reviews/2.jpg"-->
+<!--						alt="скриншот отзыва"-->
+<!--						class="fancybox-image">-->
 
-					<a href="./upload/reviews/3.png" class="review-image-wrapper">
-						<img
-							src="./upload/reviews/3.png"
-							alt=""
-							class="fancybox-image">
-					</a>
+<!--					<img-->
+<!--						src="./upload/reviews/3.jpg"-->
+<!--						alt="скриншот отзыва"-->
+<!--						class="fancybox-image">-->
 
-					<a href="./upload/reviews/4.png" class="review-image-wrapper">
-						<img
-							src="./upload/reviews/4.png"
-							alt=""
-							class="fancybox-image">
-					</a>
+<!--					<img-->
+<!--						src="./upload/reviews/4.jpg"-->
+<!--						alt="скриншот отзыва"-->
+<!--						class="fancybox-image">-->
 
-					<a href="./upload/reviews/5.png" class="review-image-wrapper">
-						<img
-							src="./upload/reviews/5.png"
-							alt=""
-							class="fancybox-image">
-					</a>
+<!--					<img-->
+<!--						src="./upload/reviews/5.jpg"-->
+<!--						alt="скриншот отзыва"-->
+<!--						class="fancybox-image">-->
 
-					<a href="./upload/reviews/6.png" class="review-image-wrapper">
-						<img
-							src="./upload/reviews/6.png"
-							alt=""
-							class="fancybox-image">
-					</a>
+<!--					<img-->
+<!--						src="./upload/reviews/6.jpg"-->
+<!--						alt="скриншот отзыва"-->
+<!--						class="fancybox-image">-->
 
-					<a href="./upload/reviews/7.png" class="review-image-wrapper">
-						<img
-							src="./upload/reviews/7.png"
-							alt=""
-							class="fancybox-image">
-					</a>
+<!--					<img-->
+<!--						src="./upload/reviews/7.jpg"-->
+<!--						alt="скриншот отзыва"-->
+<!--						class="fancybox-image">-->
 
-					<a href="./upload/reviews/8.png" class="review-image-wrapper">
-						<img
-							src="./upload/reviews/8.png"
-							alt=""
-							class="fancybox-image">
-					</a>
+<!--					<img-->
+<!--						src="./upload/reviews/8.jpg"-->
+<!--						alt="скриншот отзыва"-->
+<!--						class="fancybox-image">-->
+
+					<img
+						src=""
+						alt="скриншот отзыва"
+						class="fancybox-image"
+						role="button"
+						tabindex="0">
+
+					<img
+						src=""
+						alt="скриншот отзыва"
+						class="fancybox-image"
+						role="button"
+						tabindex="0">
+
+					<img
+						src=""
+						alt="скриншот отзыва"
+						class="fancybox-image"
+						role="button"
+						tabindex="0">
+
+					<img
+						src=""
+						alt="скриншот отзыва"
+						class="fancybox-image"
+						role="button"
+						tabindex="0">
+
+					<img
+						src=""
+						alt="скриншот отзыва"
+						class="fancybox-image"
+						role="button"
+						tabindex="0">
+
+					<img
+						src=""
+						alt="скриншот отзыва"
+						class="fancybox-image"
+						role="button"
+						tabindex="0">
+
+					<img
+						src=""
+						alt="скриншот отзыва"
+						class="fancybox-image"
+						role="button"
+						tabindex="0">
+
+					<img
+						src=""
+						alt="скриншот отзыва"
+						class="fancybox-image"
+						role="button"
+						tabindex="0">
 				</div>
 			</article>
 
@@ -450,5 +519,26 @@
 			<p class="development">Развитие сайта — <a href="https://mediamint.ru" target="_blank">MediaMint</a></p>
 		</div>
 	</footer>
+
+	<div id="review-modal" class="">
+		<button
+			id="close-detail-review"
+			aria-label="Закрыть детальный просмотр отзывов"></button>
+
+		<button id="prev-image"
+				class="review-modal-btn"
+				data-image-num="0"
+				aria-label="Предыдущий отзыв"></button>
+		<img
+			src=""
+			alt=""
+			id="review-detail"
+		>
+
+		<button
+			id="next-image"
+			class="review-modal-btn"
+			data-image-num="0" aria-label="Следующий отзыв"></button>
+	</div>
 </body>
 </html>
