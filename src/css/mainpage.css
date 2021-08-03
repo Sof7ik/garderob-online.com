@@ -446,6 +446,21 @@ a.contact-tel
 	border-radius: 10px;
 }
 
+h2.contacts-title
+{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 22px;
+	line-height: 27px;
+
+	color: #333333;
+
+	margin-bottom: 14px;
+
+	text-align: center;
+}
+
 .contact-item
 {
 	background: #F9E2F9;
@@ -578,7 +593,7 @@ a.contact-tel
 {
 	width: 100%;
 	max-width: 112px;
-	height: auto;
+	height: 132px;
 	object-fit: cover;
 
 	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
