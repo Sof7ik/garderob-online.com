@@ -30,7 +30,6 @@ main
 	margin-bottom: 23px;
 
 	max-height: calc(30px + 40px);
-	max-height: calc(30px + 40px);
 	overflow-y: hidden;
 
 	transition: max-height .4s;
@@ -142,7 +141,8 @@ button.open-dropdown-btn span.dropdown-btn-part.vertical
 	margin-top: 18px;
 }
 
-p.dropdown-content__text
+p.dropdown-content__text,
+p.dropdown-content__text a
 {
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
@@ -151,6 +151,19 @@ p.dropdown-content__text
 	line-height: 22px;
 
 	color: #333333;
+}
+
+p.dropdown-content__text a
+{
+	color: #1E6FDD;
+}
+
+p.dropdown-content__text img.emoji
+{
+	display: inline-block;
+
+	width: 17px;
+	height: 17px;
 }
 
 div.tel-wrapper
@@ -302,6 +315,8 @@ a.contact-tel
 
 	max-width: 1966px;
 	margin: 20px auto 0;
+
+	padding: 40px 0;
 }
 
 .rail-container

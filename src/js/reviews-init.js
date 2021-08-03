@@ -1,8 +1,17 @@
+let randomNums = [];
+
 function getRandomImage()
 {
-    const randomNum = Math.ceil(Math.random() * 23);
+    while(randomNums.length < 8)
+    {
+        let r = Math.ceil(Math.random() * 23);
 
-    return `upload/reviews/${randomNum}.jpg`;
+        if (!randomNums.includes(r))
+        {
+            randomNums.push(r);
+            return `upload/reviews/${r}.jpg`
+        }
+    }
 }
 
 function getImageByPosition(position = 0)
